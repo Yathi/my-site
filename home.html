@@ -5,10 +5,6 @@
         <title>Bad to the Bonez</title>
         <link rel='stylesheet' href='css/bootstrap.css' />
     	<style type="text/css">
-	    	body {
-		    	padding-top:60px;
-			    padding-bottom:40px;
-			    }
 		    .jumbotron {
 			    margin: 2px 0;
 			    text-align: center;
@@ -18,9 +14,13 @@
 			    line-height: 1;
 			    }
 	    </style>
+        <link rel='stylesheet' href='css/custom.css' />
         <link rel='stylesheet' href='css/bootstrap-responsive.css' />
     </head>
     <body>
+        <!--Wrapper to cover the whole content-->
+        
+        <div id="wrap">
         <!--Navbar-->
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-inner">
@@ -71,6 +71,16 @@
                 </div>
             </div>
         </div>
+        <div id="push"></div>
+        </div>
+        <!--Wrapper end point-->
+        <!--The footer content-->   
+        <div id="footer">
+            <div class="container">
+                <p class='muted credits'>This site has been designed with generous help from twitter bootstrap.</p>
+            </div>
+        </div>
+        <!--The footer content end-->   
         <!--Place Le Javascipt at the end so that page is faster!! -->
         <script = src='../js/jquery.min.js'></script>
         <script = src='../js/bootstrap.js'></script>
