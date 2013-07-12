@@ -11,9 +11,13 @@
 			    text-align: left;
 			    }
 		    .jumbotron h1 {
-			    font-size: 40px;
+			    font-size: 30px;
 			    line-height: 1;
 			    text-align: center;
+			    }
+		    .jumbotron h3 {
+			    font-size: 20px;
+			    text-align: left;
 			    }
 	    </style>
         <link rel='stylesheet' href='css/custom.css' />
@@ -56,11 +60,11 @@
                     <div class='well sidebar-nav'>
 			            <ul class='nav nav-list'>
 				            <li class='nav-header'>Articles</li>
-				            <li class='active'>
+				            <li class='active' id='android-rooted-list'>
 					            <a href='#'>Android Rooted</a>
 				            </li>
-				            <li> 
-					            <a href='#'>Link</a>
+				            <li id='no-task-killer-list'> 
+					            <a href='#'>Task Killers on Android</a>
 				            </li>
 			            </ul>
 		            </div>			
@@ -68,7 +72,7 @@
                 <div class="span10">
                     <!--Body Content-->
 			        <div class='well jumbotron'>
-                        <article>
+                        <article id="android-rooted" class='gayab' >
 
 				        <h1>Android Rooted</h1>
                             <p>
@@ -110,6 +114,23 @@
                                                                 </ul>
                                                                 <div></div>
                                                                 Guide to root your phone coming up very soon. Do check out the forum on <a href="http://www.xda-developers.com/">www.xda-developers.com</a> for almost all info about your phone. And also check out this page on the brilliant <a href="http://lifehacker.com/5806135/the-10-best-android-apps-that-make-rooting-your-phone-worth-the-hassle">Lifehacker</a>.
+                                                                </article>
+
+
+
+                                                                <!--Start of the second article-->
+                                                                
+                        <article id="no-task-killer" class='gayab'>
+                            <h1>Task Killers for Android and why you should not use them!</h1>
+                            <p>Recently I was talking to a friend who was complaining about his phone restarting often. And then he himself found out the problem which was the task killer in his phone. And I was surprised to hear that he even used Task Killers. On a Galaxy S2! What most ppl do not know is <strong>Task Killers are bad for Android!</strong></p>
+                            <h3>How Android Works</h3>
+                            <p>In Android, when you close an App it does not get closed completely. It stays in the memory and goes to the background but it does not use up any process or any resources unless its doing something at the background. So having an App in the memory is never a bad thing and the Android system is designed to have it like this so that the app can be restarted again whenever needed. When you do run low on memory, the system uses a smart algorithm based on how often
+                            an App is used and when it was used the last time, to decide on which app to terminate to free up some RAM. And Android does it very well because it is designed to work best when most of the RAM is being used.  On Android, having your RAM nearly full is a good thing which most users do not understand. The main performance and battery issues are caused because of CPU bottleneck which no Task Killer Monitors.</p>
+                        <h3>What Task Killers Do</h3>
+                        <p>Task Killer convince you that the bad battery life and poor performance are because of the low free RAM on your Android phone. So they insist on closing as many Applications as possible. In Android having an application in memory takes up considerably less resources than having to stop and restart the application over and over again. And this is exactly what is done by task killers. Closing some background applications might even lead to instability and every time
+                            an app has to restart it takes up a lot of CPU resource slowing down your phone.</p>
+                        <h3>What You Should Do</h3>
+                        <p>So do yourself a favor and uninstall the Task Killer from your phone. If you do have bloatware which you do not want running, I suggest rooting your phone. And use an application like Watchdog to monitor the CPU usage of all the apps. You really need not worry about the RAM on Android (at least not in IceCream Sandwitch and Higher).</p>
                         </article>
 		    	    </div>        		            
                 </div>
