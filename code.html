@@ -8,12 +8,16 @@
     	<style type="text/css">
 		    .jumbotron {
 			    margin: 2px 0;
-			    text-align: center;
+			    text-align: left;
 			    }
 		    .jumbotron h1 {
 			    font-size: 40px;
 			    line-height: 1;
+			    text-align: center;
 			    }
+            .lead {
+                text-align: center;
+            }
 	    </style>
         <link rel='stylesheet' href='css/custom.css' />
         <link rel='stylesheet' href='css/bootstrap-responsive.css' />
@@ -55,7 +59,7 @@
                     <div class='well sidebar-nav'>
 			            <ul class='nav nav-list' id='lang-list'>
 				            <li class='nav-header'>Languages</li>
-				            <li>
+				            <li id="python">
 					            <a href='#' >Python</a>
 				            </li>
 				            <li> 
@@ -74,10 +78,25 @@
                 <div class="span10">
                     <!--Body Content-->
 			        <div class='well jumbotron'>
+                        <article class='gayab'>
 				        <h1>Introduction</h1>
 				        <p class='lead'>
                             I will talk about my favourite languages which I am learning and also some of my favourite tools which I love to use.
 				        </p>
+                        </article>
+                        <article class='gayab' id='python-package-install'>
+                            <h1>How to install a Python library</h1>
+                            <p>You have to install a python package in your system before you can import it. Or else it will give you an ImportError at runtime. To install follow the steps mentioned below:</p>
+                            <ul>
+                                <li>Go to <a href="https://pypi.python.org/pypi">Python PI</a> and search for the package you want to install. It will usually be in .tar.gz format.</li>
+                                <li>Download the tar and extract it.</li>
+                                <li>Navigate inside and you find a setup.py</li>
+                                <li>Do a <code>python setup.py build</code></li>
+                                <li>If the above command ran successfully do a <code>sudo python setup.py install</code></li>
+
+                            </ul>
+                            <p>And that is it. Your package is istalled :)</p>
+                        </article>
 		    	    </div>        		            
                 </div>
             </div>

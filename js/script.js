@@ -15,4 +15,11 @@ $(document).ready(function() {
         $('#no-task-killer').removeClass('gayab').addClass('visible').fadeIn(1000);
         $('#no-task-killer-list').addClass('active');
     });
+
+    $('#python a').click(function() {
+        $('article.visible').removeClass('visible').removeClass('gayab').hide();
+        $('li.active').removeClass('active');
+        $('#python-package-install').removeClass('gayab').addClass('visible').fadeIn(1000);
+        $('#python').addClass('active');
+    });
 });
