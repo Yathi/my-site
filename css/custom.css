@@ -46,3 +46,21 @@ img.center {
 .gayab {
     display: none;
 }
+
+div.sidebar-nav > ul > li > a {
+    transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    
+}
+div.sidebar-nav > ul > li > a:hover {
+    animation: moveFromLeft 400ms ease;
+    -webkit-animation: moveFromLeft 400ms ease;
+}
+@keyframes moveFromLeft{
+        from {
+               transform: translateX(-100%);
+             }
+      to {
+              transform: translateX(0%);
+       }
+}
